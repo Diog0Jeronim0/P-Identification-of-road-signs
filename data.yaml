@@ -1,0 +1,380 @@
+path: ../datasets/roboflow
+
+train: 'C:/Users/diogo/desafio16.5/train/images'
+val: 'C:/Users/diogo/desafio16.5/valid/images'
+test: 'C:/Users/diogo/desafio16.5/test/images'
+
+names: 
+  0: Acidente
+  1: Aeroporto - aerodromo
+  2: Aldeia historica
+  3: Aldeia preservada
+  4: Alojamento particular
+  5: Aluguer de viaturas
+  6: Animais
+  7: Animais Selvagens
+  8: Aproximacao de area de repouso
+  9: Aproximacao de passagem de nivel
+  10: Aproximacao de rotunda
+  11: Aproximacao de travessia de criancas
+  12: Aproximacao de via de saida para area de servico
+  13: Aproximacao de via de saida para uma area de repouso
+  14: Area protegia-parque natural-reserva natural
+  15: Atletismo
+  16: Baia direccional
+  17: Baia direccional para balizamento de pontos de divergencia
+  18: Baiai direccional para balizamento de pontos de divergencia
+  19: Baias direccionais
+  20: Bairro
+  21: Balizas de posicao
+  22: Biblioteca
+  23: Cabo
+  24: Caca
+  25: Cais de embarque
+  26: Campo de golf
+  27: Casino
+  28: Cavaleiros
+  29: Cedencia de passagem
+  30: Cedencia de passagem nos estreitamentos da faixa de rodagem
+  31: Centro de Exposicoes
+  32: Centro de inspeccoes
+  33: Centro desportivo
+  34: Centro hipico
+  35: Circulacao alternada
+  36: Congestionamento
+  37: Conjunto de lanternas sequenciais com fio
+  38: Conjunto de lanternas sequencias sem fio
+  39: Correios
+  40: Cruzamento com via sem prioridade
+  41: Cruzamento ou entroncamento
+  42: Defeciente
+  43: Demarcacao hectometrica da via  - IC
+  44: Demarcacao hectometrica da via  - IP
+  45: Demarcacao hectometrica da via - estradas municipais
+  46: Demarcacao hectometrica da via - restantes estradas
+  47: Demarcacao miriametrica da via  - estradas municipais
+  48: Demarcacao miriametrica da via - AE
+  49: Demarcacao miriametrica da via - IC
+  50: Demarcacao miriametrica da via - IP
+  51: Demarcacao miriametrica da via - restantes estradas
+  52: Demarcacao quilometrica da via - IC
+  53: Demarcacao quilometrica da via - estradas municipais
+  54: Demarcacao quilometrica da via - restantes estradas
+  55: Destinos de saida
+  56: Destinos sobre o itnerario
+  57: Diagramas de via de com prioridade
+  58: Direccao da via de saida
+  59: Direccao de via de acesso
+  60: Escapatoria
+  61: Escola
+  62: Estacao ferroviaria
+  63: Estacao rodoviaria
+  64: Estacionamento autorizado
+  65: Estadio
+  66: Farmacia
+  67: Ferry-boat
+  68: Fim da limitacao de velocidade
+  69: Fim da paragem ou estacionamento proibidos
+  70: Fim da pista obrigatoria para cavaleiros
+  71: Fim da pista obrigatoria para peoes e velocipedes
+  72: Fim da proibicao de sinais sonoros
+  73: Fim da proibicao de ultrapassar
+  74: Fim da proibicao de ultrapassar para automoveis pesados
+  75: Fim da proibicao de ultrapassar para motociclos e ciclomotores
+  76: Fim da recomendacao do uso de correntes de neve
+  77: Fim da via reservada a veiculos de transporte publico
+  78: Fim de localidade
+  79: Fim de pista obrigatoria para gado em manada
+  80: Fim de todas as proibicoes impostas anteriormente por sinalizacao a veiculos em marcha
+  81: Fim de velocidade recomendada
+  82: Fim de via com prioridade
+  83: Fim de zona de paragem e estacionamento proibidos
+  84: Gruta
+  85: Hospital com urgencia medica
+  86: Igreja-santuario
+  87: Indicacao de ambito urbano
+  88: Indicador da extensao de um troco
+  89: Indicador de via de saida
+  90: Indicadores da extensao regulamentada e de repeticao da extensao
+  91: Indicadores da posicao autorizada para estacionamento
+  92: Indicadores de aplicacao
+  93: Indicadores de condicoes meteorologicas
+  94: Indicadores de continuacao do local regulamentado quanto a estacionamento e paragem
+  95: Indicadores de distancia
+  96: Indicadores de duracao
+  97: Indicadores de inicio ou fim de zona regulamentada
+  98: Indicadores de periocidade
+  99: Indicadores de peso
+  100: Indicadores de veiculos a que se aplica a regulamentacao
+  101: Indicadores de veiculos a que se aplica a regulamentacao-modelo 11a
+  102: Indicadores do inicio ou fim do local regulamentado
+  103: Informacao diversa
+  104: Inicio de localidade
+  105: Interseccao com via onde circulam veiculos sobre carris
+  106: Kartodromo
+  107: Limpa-neves
+  108: Local de passagem de nivel sem guarda
+  109: Local de passagem de nivel sem guarda com duas ou mais vias
+  110: Localidade
+  111: Marina
+  112: Miradouro-ponto de vista
+  113: Monumento pre- historico
+  114: Municipio
+  115: Obrigacao de contornar a placa ou obstaculo
+  116: Obrigacao de transitar a velocidade minima de 50 km-h
+  117: Obstrucao de via
+  118: Oficina
+  119: Outras paragens obrigatorias
+  120: Outros perigos
+  121: PSP
+  122: Paineis adicionais Indicador de distancia
+  123: Paragem de veiculos de transporte colectivo de passageiros
+  124: Paragem de veiculos de transporte colectivo de passageiros que transitem sobre carris
+  125: Paragem e estacionamento proibidos
+  126: Paragem obrigatoria em cruzamentos ou entroncamentos
+  127: Parque aquatico
+  128: Parque de campismo- caravanismo
+  129: Parque de caravanismo
+  130: Parque de merendas
+  131: Parque deestacionamento
+  132: Parque nacional
+  133: Passagem de nivel com guarda
+  134: Passagem desnivelada para peoes
+  135: Passagem para ciclistas
+  136: Passagem para peoes
+  137: Paticabilidade da via
+  138: Patrimonio cultural
+  139: Pelourinho-cruzeiro
+  140: Percursos de pedestres
+  141: Pesca desportiva
+  142: Pinhal
+  143: Pista de aviacao
+  144: Pista obrigatoria para cavaleiros
+  145: Pista obrigatoria para peoes e velocipedes
+  146: Pista obrigatoria para velocipedes
+  147: Ponte
+  148: Ponte movel
+  149: Porticos
+  150: Porto
+  151: Posto de combustivel
+  152: Posto de combustivel com GPL -gas de petroleo liquefeito-
+  153: Pousada de juventude
+  154: Praia
+  155: Praticabilidade da via
+  156: Pre-aviso grafico
+  157: Pre-aviso grafico -Intersecao de nivel-
+  158: Pre-aviso grafico -Interseccao desnivelada-
+  159: Pre-aviso grafico -intersecao de nivel-
+  160: Pre-aviso reduzido
+  161: Pre-sinalizacao de itenerario
+  162: Pre-sinalizacao de via sem saida
+  163: Prioridade nos estreitamentos da faixa de rodagem
+  164: Proibicao de inversao do sentido de marcha
+  165: Proibicao de transitar a menos de 70 m do veiculo precedente
+  166: Proibicao de ultrapassar para automoveis pesados
+  167: Proibicao de ultrapassar para motociclos e ciclomotores
+  168: Proibicao de virar a direita
+  169: Proibicao de virar a esquerda
+  170: Projeccao de gravilha
+  171: Pronto socorro
+  172: Raquetas de sinalizacao
+  173: Regiao
+  174: Remo
+  175: Rio-lago-albufeira
+  176: Robot
+  177: Rotunda
+  178: Ruinas
+  179: SInal de confirmacao
+  180: Saida de ciclistas
+  181: Saida num cais ou precipicio
+  182: Sanitarios
+  183: Sentido obrigatorio
+  184: Sentido obrigatorio a esquerda
+  185: Sentido proibido
+  186: Sentidos obrigatorios possiveis
+  187: Seta de seleccao
+  188: Sinal de aproximacao de saida
+  189: Sinalizacao luminosa
+  190: Ski
+  191: Solar
+  192: Supressao de via de transito
+  193: Taxis
+  194: Tenis
+  195: Termas
+  196: Terminal rodoviario de pesados
+  197: Trabalhos na via
+  198: Transito nos dois sentidos
+  199: Transito proibido
+  200: Transito proibido a automoveis de mercadorias
+  201: Transito proibido a automoveis de mercadorias de peso total superior a ... t
+  202: Transito proibido a automoveis de mercadorias e a veiculos de traccao animal
+  203: Transito proibido a automoveis e motociclos
+  204: Transito proibido a carros de mao
+  205: Transito proibido a ciclomotores
+  206: Transito proibido a veiculos agricolas
+  207: Transito proibido a veiculos com reboque de dois ou mais eixos
+  208: Transito proibido a veiculos de peso por eixo superior a ... t
+  209: Transito proibido a veiculos transportando mercadorias perigosas
+  210: Transito proibido a veiculos transportando produtos facilmente inflamaveis ou explosivos
+  211: Transito proibido a veiculos transportando produtos susceptiveis de poluirem as aguas
+  212: Transito sujeito a demora
+  213: Travessia de peoes
+  214: Vela
+  215: Via com prioridade
+  216: Via de transito reservada a veiculos de transporte publico
+  217: Via obrigatoria para automoveis de mercadorias
+  218: Via obrigatoria para automoveis pesados
+  219: Via publica sem saida
+  220: Via reservada a automoveis e motociclos
+  221: Via reservada a veiculos de transporte publico
+  222: Windsurf
+  223: Zona Agricola
+  224: Zona Vinicola
+  225: Zona de transito proibido
+  226: Zona pedonal
+  227: Zoo
+  228: aeroporto
+  229: aplicacao de prescricao a via de transito
+  230: aproximacao de travessia de criancas
+  231: aquario
+  232: assagem de nivel sem guarda
+  233: auto-estrada
+  234: baliza de posicao
+  235: bernas baixas
+  236: bonba de gasolina
+  237: cafe
+  238: canoagem
+  239: cedencia de passagem
+  240: cemiterio
+  241: correntes de neve recomendadas
+  242: criancas
+  243: curva a direita e contracurva
+  244: curva a esquerda e contracurva
+  245: curva a esquerda.
+  246: depressao
+  247: desvio para faixas de rodagem contraria
+  248: dim da pista obrigatoria para peoes e velocipedes
+  249: direcao da rota
+  250: direcao de rota
+  251: direcao de via de acesso
+  252: entroncamento com via sem prioridade
+  253: estacao autocarros
+  254: estacao de radiofusao
+  255: estacionamento autorizado para pessoas com deficiencia
+  256: estacionamento proibido
+  257: estreitamento de via de transito
+  258: fim da limitacao de velocidade
+  259: fim da obrigacao de transitar a velocidade minima de 30 km-h
+  260: fim da pista obrigatoria para peoes
+  261: fim da pista obrigatoria para velocipedes
+  262: fim da via obrigatoria para automoveis pesados
+  263: fim de auto-estrada
+  264: fim de estacionamento autorizado
+  265: fim de obrigacao de utilizar correntes de neve
+  266: fim de todas as proibicoes impostas na zona
+  267: fim de tunel
+  268: fim de via reservada a automoveis e motociclos
+  269: fim de zona de estacionamento autorizado
+  270: fim de zona de paragem e estacionamneto proibidos
+  271: fim de zona de velocidade limitada
+  272: fontanario
+  273: hospital
+  274: hotel
+  275: identificacao de circuito
+  276: idosos
+  277: indicacao de centro urbano
+  278: inversao de marcha
+  279: limite de velociadade
+  280: limite de velocidade
+  281: limites de velocidade
+  282: lomba
+  283: mercado
+  284: metro
+  285: modelo 11a
+  286: museu
+  287: numero de sentido das vias de transito
+  288: numero e sentido das vias de transito
+  289: numero e sentidos das vias de transito
+  290: paragem de autocarro
+  291: paragem de veiculos de transporte  colectivo de passageiros
+  292: paragem e estacionamento proibido
+  293: paragem e estacionamneto proibido
+  294: paragem e estacionamneto proibidos
+  295: parar
+  296: parque de campismo
+  297: parque de estacionamento com cubertura
+  298: parque para reboques de campismo
+  299: parquimetro
+  300: passagem de peoes
+  301: passagem disnevelada para peoes
+  302: passagem disnevelada para peoes com rampa
+  303: passagem e estacionamento proibido
+  304: passagem estreita
+  305: passagem para peoes
+  306: patrimonio
+  307: pavimento escorregadio
+  308: piscina
+  309: pista obrigatoria para peoes
+  310: posto de gasolina
+  311: posto de informacoes
+  312: posto de socorros
+  313: pousada da juventude
+  314: pre sinalizacao de desvio de itinerario
+  315: pre-aviso de rotunda
+  316: pre-aviso grafico
+  317: pre-aviso reduzido
+  318: proibicao de exceder a velocidade maxima de 120 km-h
+  319: proibicao de exceder a velocidade maxima de 20 km-h
+  320: proibicao de exceder a velocidade maxima de 30 km-h
+  321: proibicao de exceder a velocidade maxima de 40 km-h
+  322: proibicao de exceder a velocidade maxima de 60 km-h
+  323: proibicao de inversao do sentido de marcha
+  324: proibicao de passagem
+  325: proibicao de ultrapassar
+  326: proibicao de ultrapassar para motociclos e ciclomotores
+  327: proibicao de virar a direita
+  328: proibicao de virar a esquerda
+  329: proibido ultrapassar
+  330: queda de pedras
+  331: ransito proibido a automoveis de mercadorias e a veiculos a motor com reboque
+  332: ransito proibido a cavaleiros
+  333: ransito proibido a motociclos simples
+  334: ransito proibido a veiculos com reboque
+  335: ransito proibido a veiculos ou conjunto de veiculos de comprimento superior a 10 m
+  336: restaurante
+  337: sentido obrigatorio
+  338: sentido obrigatorio para direita
+  339: sentido obrigatorio para esquerda
+  340: sentidos obrigatorios possiveis
+  341: sinais
+  342: sinal de selecao frontal
+  343: sinalizacao luminosa
+  344: supressao de via de transito
+  345: teatro
+  346: telefone
+  347: telefone de emergencia
+  348: transito de sentido unico
+  349: transito nos dois sentidos
+  350: transito proibido
+  351: transito proibido a automoveis e motociclos com carro
+  352: transito proibido a automoveis pesados
+  353: transito proibido a peoes
+  354: transito proibido a veiculos de 2 rodas
+  355: transito proibido a veiculos de largura superior a 2 m
+  356: transito proibido a veiculos de largura superior a 3.5 m
+  357: transito proibido a veiculos de traccao  animal
+  358: transito proibido a veiculos pesados
+  359: transito proibido a velocipedes
+  360: travessia de peoes
+  361: trnsito proibido a automo
+  362: tunel
+  363: velocidade media
+  364: velocidade recomendada
+  365: via publica sem saida
+  366: via verde
+  367: zona de estacionamento autorizado
+  368: zona de estacionamento proibido
+  369: zona de estacionamnero proibido
+  370: zona de paragem e estacionamneto proibido
+  371: zona de transito proibido
+  372: zona de velocidade limitada
