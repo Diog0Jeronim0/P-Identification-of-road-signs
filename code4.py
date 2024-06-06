@@ -1,25 +1,26 @@
 import cv2
 from ultralytics import YOLO
 
-# Carregar o modelo
-modelo = YOLO("jeronimo_2model.pt")
+# Load the model
+model = YOLO("jeronimo_2model.pt")
 
-sinais_de_transito_classes = [59, 64, 136, 239, 269, 293, 337, 242, 291, 256, 367]
+# Traffic sign classes
+traffic_sign_classes = [59, 64, 136, 239, 269, 293, 337, 242, 291, 256, 367]
 
-# Abrir o vídeo
+# Open the video
 video_input_path = "original_video2.mp4"
 video_output_path = "video_output.mp4"
 
 cap = cv2.VideoCapture(video_input_path)
 
-# Obter informações sobre o vídeo
+# Get video information
 fps = cap.get(cv2.CAP_PROP_FPS)
-width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))  # Obter a largura original do vídeo
-height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))  # Obter a altura original do vídeo
+width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))  # Get the original width of the video
+height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))  # Get the original height of the video
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter(video_output_path, fourcc, fps, (width, height))
 
-# Nova resolução desejada
+# Desired new resolution
 new_width = 1280
 new_height = 560
 
@@ -28,23 +29,23 @@ while cap.isOpened():
     if not ret:
         break
     
-    # Redimensionar o quadro para a nova resolução
+    # Resize the frame to the new resolution
     frame_resized = cv2.resize(frame, (new_width, new_height))
     
-    # Fazer a detecção
-    resultados = modelo.predict(source=frame_resized, task='detect', conf=0.775)
+    # Perform detection
+    results = model.predict(source=frame_resized, task='detect', conf=0.775)
     
-    # Iterar sobre cada objecto Detection e desenhar as detecções
-    for resultado in resultados:
-        image_with_detections = resultado.plot()
+    # Iterate over each Detection object and draw the detections
+    for result in results:
+        image_with_detections = result.plot()
         out.write(image_with_detections)
     
-    # Mostrar o frame com detecções (opcional)
+    # Display the frame with detections (optional)
     cv2.imshow('Detections', image_with_detections)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# Liberar os recursos
+# Release resources
 cap.release()
 out.release()
 cv2.destroyAllWindows()
